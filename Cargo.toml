@@ -1,0 +1,8 @@
+[package]
+name = "aoc21-rs"
+version = "0.1.0"
+authors = ["vthib <vthiberville@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+aoc_driver = "0.1"

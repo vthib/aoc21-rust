@@ -1,3 +1,4 @@
 /target
-.session.txt
-Cargo.lock
+/input
+/.session.txt
+/Cargo.lock

@@ -4,6 +4,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
 fn main() {
     aoc_driver::aoc_complete! {
@@ -112,6 +113,24 @@ fn main() {
                 "2021-6-2": day6::part2
                 tests: [
                     { name: "1", input: "3,4,3,1,2", output: "26984457539" }
+                ]
+            }
+            {
+                "2021-7-1": day7::part1
+                tests: [
+                    { name: "1", input: "16,1,2,0,4,2,7,1,2,14", output: "37" }
+                ]
+            }
+            {
+                "2021-7-1": day7::part1
+                tests: [
+                    { name: "1", input: "16,1,2,0,4,2,7,1,2,14", output: "37" }
+                ]
+            }
+            {
+                "2021-7-2": day7::part2
+                tests: [
+                    { name: "1", input: "16,1,2,0,4,2,7,1,2,14", output: "168" }
                 ]
             }
         ]

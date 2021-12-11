@@ -6,6 +6,7 @@ mod day5;
 mod day6;
 mod day7;
 mod day8;
+mod day9;
 
 fn main() {
     aoc_driver::aoc_complete! {
@@ -162,6 +163,26 @@ dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf | cefg dcbef fcge gbc
 bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd | ed bcgafe cdgba cbgef
 egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg | gbdfcae bgc cg cgb
 gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce", output: "61229" }
+                ]
+            }
+            {
+                "2021-9-1": day9::part1
+                tests: [
+                    { name: "1", input: "2199943210
+3987894921
+9856789892
+8767896789
+9899965678", output: "15" }
+                ]
+            }
+            {
+                "2021-9-2": day9::part2
+                tests: [
+                    { name: "1", input: "2199943210
+3987894921
+9856789892
+8767896789
+9899965678", output: "1134" }
                 ]
             }
         ]

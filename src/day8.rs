@@ -19,6 +19,7 @@ pub fn part2(input: &str) -> impl std::fmt::Display {
         .map(|entry| deduce_entry(entry))
         .sum::<u32>()
 }
+
 fn parse_input(input: &str) -> Vec<Vec<Signals>> {
     input
         .lines()
@@ -27,9 +28,9 @@ fn parse_input(input: &str) -> Vec<Vec<Signals>> {
             let left = elems.next().unwrap();
             let right = elems.next().unwrap();
 
-            let mut left: Vec<_> = left.split(' ').map(|v| Signals::from_str(v)).collect();
+            let mut left: Vec<_> = left.split(' ').map(Signals::from_str).collect();
             assert!(left.len() == 10);
-            let mut right: Vec<_> = right.split(' ').map(|v| Signals::from_str(v)).collect();
+            let mut right: Vec<_> = right.split(' ').map(Signals::from_str).collect();
             assert!(right.len() == 4);
             left.append(&mut right);
             left

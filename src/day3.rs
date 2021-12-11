@@ -48,7 +48,7 @@ where
 }
 
 fn parse_input(input: &str) -> (Vec<u64>, usize) {
-    let values = input.lines().map(|v| bin_string_to_u64(v)).collect();
+    let values = input.lines().map(bin_string_to_u64).collect();
     let max_length = input.lines().map(|v| v.len()).max().unwrap();
     (values, max_length)
 }

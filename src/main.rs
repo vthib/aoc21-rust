@@ -1,6 +1,7 @@
 mod day1;
 mod day10;
 mod day11;
+mod day12;
 mod day2;
 mod day3;
 mod day4;
@@ -245,6 +246,86 @@ gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce
 6882881134
 4846848554
 5283751526", output: "195" }
+                ]
+            }
+            {
+                "2021-12-1": day12::part1
+                tests: [
+                    { name: "1", input: "start-A
+start-b
+A-c
+A-b
+b-d
+A-end
+b-end", output: "10" }
+                    { name: "1", input: "dc-end
+HN-start
+start-kj
+dc-start
+dc-HN
+LN-dc
+HN-end
+kj-sa
+kj-HN
+kj-dc", output: "19" }
+                    { name: "1", input: "fs-end
+he-DX
+fs-he
+start-DX
+pj-DX
+end-zg
+zg-sl
+zg-pj
+pj-he
+RW-he
+fs-DX
+pj-RW
+zg-RW
+start-pj
+he-WI
+zg-he
+pj-fs
+start-RW", output: "226" }
+                ]
+            }
+            {
+                "2021-12-2": day12::part2
+                tests: [
+                    { name: "1", input: "start-A
+start-b
+A-c
+A-b
+b-d
+A-end
+b-end", output: "36" }
+                    { name: "1", input: "dc-end
+HN-start
+start-kj
+dc-start
+dc-HN
+LN-dc
+HN-end
+kj-sa
+kj-HN
+kj-dc", output: "103" }
+                    { name: "1", input: "fs-end
+he-DX
+fs-he
+start-DX
+pj-DX
+end-zg
+zg-sl
+zg-pj
+pj-he
+RW-he
+fs-DX
+pj-RW
+zg-RW
+start-pj
+he-WI
+zg-he
+pj-fs
+start-RW", output: "3509" }
                 ]
             }
         ]

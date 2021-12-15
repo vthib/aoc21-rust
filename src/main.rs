@@ -4,6 +4,7 @@ mod day11;
 mod day12;
 mod day13;
 mod day14;
+mod day15;
 mod day2;
 mod day3;
 mod day4;
@@ -346,6 +347,36 @@ start-RW", output: "3509" }
                 "2021-14-2": day14::part2
                 tests: [
                     { name: "1", input: "NNCB\n\nCH -> B\nHH -> N\nCB -> H\nNH -> C\nHB -> C\nHC -> B\nHN -> C\nNN -> C\nBH -> H\nNC -> B\nNB -> B\nBN -> B\nBB -> N\nBC -> B\nCC -> N\nCN -> C\n", output: "2188189693529" }
+                ]
+            }
+            {
+                "2021-15-1": day15::part1
+                tests: [
+                    { name: "1", input: "1163751742
+1381373672
+2136511328
+3694931569
+7463417111
+1319128137
+1359912421
+3125421639
+1293138521
+2311944581", output: "40" }
+                ]
+            }
+            {
+                "2021-15-2": day15::part2
+                tests: [
+                    { name: "1", input: "1163751742
+1381373672
+2136511328
+3694931569
+7463417111
+1319128137
+1359912421
+3125421639
+1293138521
+2311944581", output: "315" }
                 ]
             }
         ]

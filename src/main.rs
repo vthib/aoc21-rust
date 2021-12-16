@@ -5,6 +5,7 @@ mod day12;
 mod day13;
 mod day14;
 mod day15;
+mod day16;
 mod day2;
 mod day3;
 mod day4;
@@ -377,6 +378,31 @@ start-RW", output: "3509" }
 3125421639
 1293138521
 2311944581", output: "315" }
+                ]
+            }
+            {
+                "2021-16-1": day16::part1
+                tests: [
+                    { name: "0", input: "D2FE28", output: "6" }
+                    { name: "1", input: "38006F45291200", output: "9" }
+                    { name: "2", input: "EE00D40C823060", output: "14" }
+                    { name: "3", input: "8A004A801A8002F478", output: "16" }
+                    { name: "4", input: "620080001611562C8802118E34", output: "12" }
+                    { name: "5", input: "C0015000016115A2E0802F182340", output: "23" }
+                    { name: "6", input: "A0016C880162017C3686B18A3D4780", output: "31" }
+                ]
+            }
+            {
+                "2021-16-2": day16::part2
+                tests: [
+                    { name: "0", input: "C200B40A82", output: "3" }
+                    { name: "1", input: "04005AC33890", output: "54" }
+                    { name: "2", input: "880086C3E88112", output: "7" }
+                    { name: "3", input: "CE00C43D881120", output: "9" }
+                    { name: "4", input: "D8005AC2A8F0", output: "1" }
+                    { name: "5", input: "F600BC2D8F", output: "0" }
+                    { name: "6", input: "9C005AC2F8F0", output: "0" }
+                    { name: "7", input: "9C0141080250320F1802104A08", output: "1" }
                 ]
             }
         ]

@@ -6,6 +6,7 @@ mod day13;
 mod day14;
 mod day15;
 mod day16;
+mod day17;
 mod day2;
 mod day3;
 mod day4;
@@ -403,6 +404,18 @@ start-RW", output: "3509" }
                     { name: "5", input: "F600BC2D8F", output: "0" }
                     { name: "6", input: "9C005AC2F8F0", output: "0" }
                     { name: "7", input: "9C0141080250320F1802104A08", output: "1" }
+                ]
+            }
+            {
+                "2021-17-1": day17::part1
+                tests: [
+                    { name: "0", input: "target area: x=20..30, y=-10..-5", output: "45" }
+                ]
+            }
+            {
+                "2021-17-2": day17::part2
+                tests: [
+                    { name: "0", input: "target area: x=20..30, y=-10..-5", output: "112" }
                 ]
             }
         ]

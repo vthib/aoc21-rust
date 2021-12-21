@@ -11,6 +11,7 @@ mod day18;
 mod day19;
 mod day2;
 mod day20;
+mod day21;
 mod day3;
 mod day4;
 mod day5;
@@ -762,6 +763,18 @@ start-RW", output: "3509" }
 ##..#
 ..#..
 ..###", output: "3351" }
+                ]
+            }
+            {
+                "2021-21-1": day21::part1
+                tests: [
+                    { name: "0", input: "Player 1 starting position: 4\nPlayer 2 starting position: 8", output: "739785" }
+                ]
+            }
+            {
+                "2021-21-2": day21::part2
+                tests: [
+                    { name: "0", input: "Player 1 starting position: 4\nPlayer 2 starting position: 8", output: "444356092776315" }
                 ]
             }
         ]

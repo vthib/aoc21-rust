@@ -14,6 +14,7 @@ mod day20;
 mod day21;
 mod day22;
 mod day24;
+mod day25;
 mod day3;
 mod day4;
 mod day5;
@@ -880,6 +881,20 @@ off x=-93533..-4276,y=-16170..68771,z=-104985..-24507", output: "275851493628223
             }
             {
                 "2021-24-2": day24::part2
+            }
+            {
+                "2021-25-1": day25::part1
+                tests: [
+                    { name: "0", input: "v...>>.vv>
+.vv>>.vv..
+>>.>v>...v
+>>v>>.>.v.
+v>v.vv.v..
+>.>>..v...
+.vv..>.>v.
+v.v..>>v.v
+....v..v.>", output: "58" }
+                ]
             }
         ]
     }
